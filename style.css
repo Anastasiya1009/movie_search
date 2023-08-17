@@ -1,0 +1,48 @@
+body {
+    background-color: beige;
+}
+
+form {
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+
+#forms {
+    position: relative;
+    width: 275px;
+    left: 40%;
+}
+
+input,
+select,
+span {
+    margin: 10px;
+}
+
+.card {
+    width: 340px;
+    height: 250px;
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+img {
+    width: 150px !important;
+    height: 250px;
+
+}
+
+.info {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+
+#container{
+    max-width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="forms">
+        <p style="text-align:center;"><b> Search:</b></p>
+        <form action="" id="form" onsubmit="return login()" method="post">
+
+            <span id="txt1">Title:</span>
+            <input style="width:180px" type="text" name="title" id="title" required>
+            <br>
+            <span id="txt2">Type:</span>
+            <select name="type" style="width:185px; padding: 2.5px;" id="type">
+                <option value="movie">Movie</option>
+                <option value="series">Series</option>
+                <option value="episode">Episode</option>
+            </select>
+            <br>
+            <input type="submit" style="width: 255px;margin-top: 20px;" value="Search">
+        </form>
+    </div>
+    <div id="container">        
+    </div>
+    <div id="cardDetails"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
